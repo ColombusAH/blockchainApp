@@ -1,6 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { inject, InjectionToken } from '@angular/core';
-1
+
 export const ETHProviderInjector = new InjectionToken(
   'ETH Provider Injector Token',
   {
@@ -9,7 +9,7 @@ export const ETHProviderInjector = new InjectionToken(
       const ethProvider = inject(DOCUMENT).defaultView?.ethereum;
       console.log(ethProvider);
       if(!ethProvider) {
-        throw new Error('Please install MetaMask extension')
+        throw new Error('Please install MetaMask extension');
       }
       return ethProvider;
     },

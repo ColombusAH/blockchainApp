@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgMetmaskComponent } from './ng-metmask.component';
+import { NgmetamaskComponent } from './ng-metamask.component';
 
-describe('NgMetmaskComponent', () => {
-  let component: NgMetmaskComponent;
-  let fixture: ComponentFixture<NgMetmaskComponent>;
+describe('NgmetamaskComponent', () => {
+  let component: NgmetamaskComponent;
+  let fixture: ComponentFixture<NgmetamaskComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NgMetmaskComponent ]
+      declarations: [ NgmetamaskComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgMetmaskComponent);
+    fixture = TestBed.createComponent(NgmetamaskComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

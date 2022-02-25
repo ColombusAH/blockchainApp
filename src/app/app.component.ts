@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgMetamaskService } from 'projects/ng-metmask/src/public-api';
+import { NgMetamaskService } from 'projects/ng-metamask/src/public-api';
 
 @Component({
   selector: 'app-root',

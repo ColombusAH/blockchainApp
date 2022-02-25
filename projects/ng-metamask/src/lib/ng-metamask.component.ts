@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'mtamsk-ng-metmask',
+  selector: 'mtamsk-ng-metamask',
   template: `
     <p>
-      ng-metmask works!
+      ng-metamask works!
     </p>
   `,
   styles: [
   ]
 })
-export class NgMetmaskComponent implements OnInit {
+export class NgmetamaskComponent implements OnInit {
 
   constructor() { }
 

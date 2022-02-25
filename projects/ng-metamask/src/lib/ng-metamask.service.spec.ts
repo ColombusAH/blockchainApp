@@ -1,8 +1,8 @@
 import { TestBed } from '@angular/core/testing';
 
-import { NgMetamaskService } from './ng-metmask.service';
+import { NgMetamaskService } from './ng-metamask.service';
 
-describe('NgMetmaskService', () => {
+describe('NgmetamaskService', () => {
   let service: NgMetamaskService;
 
   beforeEach(() => {

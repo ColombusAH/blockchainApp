@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, '../../coverage/ng-metmask'),
+      dir: require('path').join(__dirname, '../../coverage/ng-metamask'),
       subdir: '.',
       reporters: [
         { type: 'html' },

@@ -13,9 +13,9 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      "ng-metmask": [
-        "dist/ng-metmask/ng-metmask",
-        "dist/ng-metmask"
+      "ng-metamask": [
+        "dist/ng-metamask/ng-metamask",
+        "dist/ng-metamask"
       ]
     },
     "declaration": false,

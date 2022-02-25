@@ -1,11 +1,11 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
-import { NgMetmaskComponent } from './ng-metmask.component';
+import { NgmetamaskComponent } from './ng-metamask.component';
 import { providers } from './providers';
 
 @NgModule({
-  declarations: [NgMetmaskComponent],
+  declarations: [NgmetamaskComponent],
   imports: [],
-  exports: [NgMetmaskComponent],
+  exports: [NgmetamaskComponent],
 })
 export class NgMetamaskModule {
   static forRoot(): ModuleWithProviders<NgMetamaskModule> {
