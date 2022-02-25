@@ -100,6 +100,37 @@
           }
         }
       }
+    },
+    "ng-metmask": {
+      "projectType": "library",
+      "root": "projects/ng-metmask",
+      "sourceRoot": "projects/ng-metmask/src",
+      "prefix": "mtamsk",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ng-metmask/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-metmask/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ng-metmask/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-metmask/src/test.ts",
+            "tsConfig": "projects/ng-metmask/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-metmask/karma.conf.js"
+          }
+        }
+      }
     }
   },
   "defaultProject": "blockchainApp"
